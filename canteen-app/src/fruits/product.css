@@ -1,0 +1,11 @@
+.fruitsWrapper{
+  
+   display: flex;
+   flex-wrap: wrap;
+   margin: 20px;
+   padding: 0px  100px;
+justify-content: space-evenly;
+}
+/* .fruits{
+    margin: 80px;
+} */

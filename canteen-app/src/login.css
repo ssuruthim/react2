@@ -1,0 +1,52 @@
+.loginform
+{
+    padding: 30px;
+   width: 300px;
+    display: flex;
+    margin-left: 90px;
+    flex-direction: column;
+    justify-content: center;
+  
+}
+.login-head{
+    margin-top: 40px;
+}
+.login
+{
+  
+    width: 500px;
+    border:2px solid purple;
+    border-radius: 10px;
+    align-items: center;
+    margin: auto;
+}
+input{
+    margin: 15px;
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid purple;
+    text-align: start;
+    font-size: 20px;
+    font-weight: bold;
+}
+/* h1{
+    padding: 20px;
+} */
+input:hover
+{
+border: 2px solid purple;
+border-radius: 10px;
+background-color: gainsboro;
+}
+button
+{
+    border-radius: 10px;
+    padding: 10px;
+    font-size: large;
+    background-color: purple;
+}
+button:hover{
+   font-weight: bold;
+
+    background-color: violet;
+}

@@ -1,0 +1,29 @@
+.categoryItems{
+    border-radius: 10px;
+    
+    width: 180px;
+
+    height: 200px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+.categoryItems:hover{
+    transform: scale(1.07);
+}
+.categoryItems div:nth-child(1) img{
+    border-radius:10px 10px 10px 10px ;
+    
+    width: 200px;
+    height: 200px;
+    margin: 10px 25px 0px 8px;
+}
+.categoryItems div:nth-child(2) p{
+    text-align: center;
+    color: purple;
+    font-weight: bold;
+    margin-top: 20px;
+
+}
+.categoryItems div:nth-child(1) img:hover{
+    transform: scale(1.05);
+}

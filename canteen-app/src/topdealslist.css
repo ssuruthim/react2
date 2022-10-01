@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+}
+
+.fruitsItems{
+    background-color: white;
+    width: 250px;
+    border: solid 3px purple;
+    border-radius: 20px;
+    margin: 20px;   
+}
+
+.fruitsItems .dealsImage{
+    margin-top: 20px;
+}
+.fruitsItems div:nth-child(2) img{
+    color:aquamarine;
+}
+img{
+    width: 100%;
+}
+.fruitsWrapper{
+  
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    padding: 0px  100px;
+ justify-content: space-evenly;
+ }
